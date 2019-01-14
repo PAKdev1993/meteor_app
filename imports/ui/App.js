@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import FormContainer from './Form/FormContainer';
 import List from './List';
 
-// App component - represents the whole app
+const App = props => {
+  return props.content
+}
+
+export default App
+/*// App component - represents the whole app
 export default class App extends Component {
   render() {
     return (
@@ -12,4 +17,4 @@ export default class App extends Component {
       </div>
     );
   }
-}
+}*/
